@@ -12,5 +12,6 @@
 
 import os
 from config import ROOT_DIR
-from comm.script.writeCaseYml import write_case_yaml, read_yaml_data
-temp_file = ROOT_DIR+'config/test_template.py'
+from comm.script.writeCaseYml import read_yaml_data
+
+temp_file = ROOT_DIR + 'config/test_template.py'
