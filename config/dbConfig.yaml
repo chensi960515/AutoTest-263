@@ -1,0 +1,9 @@
+PyDemo:
+  # 数据库查询超时时长(不得小于1)
+  timeout: 3
+  # MySQL配置信息
+  mysql_info:
+    address: 127.0.0.1:3160
+    db: test
+    user: test
+    auth: test

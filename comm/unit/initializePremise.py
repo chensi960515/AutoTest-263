@@ -19,6 +19,7 @@ from config import PAGE_DIR, PROJECT_NAME, API_CONFIG
 from comm.unit import apiSend, readRelevance, replaceRelevance
 from comm.utils import readYaml
 
+
 def read_json(summary, json_obj, case_path):
     """
     校验内容读取
@@ -32,7 +33,7 @@ def read_json(summary, json_obj, case_path):
     else:
         try:
             # 读取json文件指定用例数据
-            with open(case_path+'/'+json_obj, "r", encoding="utf-8") as js:
+            with open(case_path + '/' + json_obj, "r", encoding="utf-8") as js:
                 data_list = json.load(js)
                 for data in data_list:
                     if data['summary'] == summary:
@@ -42,6 +43,7 @@ def read_json(summary, json_obj, case_path):
         except JSONDecodeError:
             raise Exception("用例关联的文件有误\n文件路径： %s" % json_obj)
         # 想买束花给你 可路口的花店没有开 我又实在想念
+
 
 def init_premise(test_info, case_data, case_path):
     """
@@ -130,6 +132,3 @@ def init_premise(test_info, case_data, case_path):
         logging.debug("期望返回处理结果：{}".format(case_data))
 
     return test_info, case_data
-
-
-
