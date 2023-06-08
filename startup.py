@@ -23,16 +23,7 @@ if __name__ == '__main__':
     writeLogs.MyLogs(ROOT_DIR + 'logs')
 
     # 判断运行模式
-    if RC['auto_switch'] == 3:
-        logging.info("根据接口抓包数据，自动生成测试用例和测试脚本，但不运行测试！")
-        writeCase.write_case(DATA_DIR, auto_yaml=True)
-        sys.exit(0)
-
-    elif RC['auto_switch'] == 2:
-        logging.info("根据接口抓包数据，自动生成测试用例和测试脚本，然后运行测试！")
-        writeCase.write_case(DATA_DIR, auto_yaml=True)
-
-    elif RC['auto_switch'] == 1:
+    if RC['auto_switch'] == 1:
         # 如果扫描路径为空在则取项目page目录
         if not RC['scan_dir']:
             RC['scan_dir'] = PAGE_DIR

@@ -16,10 +16,10 @@ pattern:
 process: 0
 
 # 失败重试次数（0表示不重试）
-reruns: 0
+reruns: 3
 
 # 本轮测试最大允许失败数（超出则立即结束测试）
-maxfail: 20
+maxfail: 6
 
 # 接口调用间隔时间（s）
 interval: 1
