@@ -141,8 +141,6 @@ def init_test_case(har_ct, module_path, parameter, file_name):
     return test_case
 
 
-'''
-
 def write_case_yaml(har_path):
     """循环读取接口数据文件
 
@@ -158,7 +156,7 @@ def write_case_yaml(har_path):
         if ext_name == '.chlsj':
 
             logging.info("读取抓包文件: {}".format(each))
-            file_path = har_path+'/'+each
+            file_path = har_path + '/' + each
             with open(file_path, 'r', encoding='utf-8') as f:
                 har_cts = json.loads(f.read())
                 har_ct = har_cts[0]
@@ -206,16 +204,16 @@ def write_case_yaml(har_path):
                 case_list["test_case"] = [test_case]
 
                 # 写入测试用例(存在则忽略)
-                case_name = 'test_'+title+'.yaml'
-                case_file = module_path+'/'+case_name
+                case_name = 'test_' + title + '.yaml'
+                case_file = module_path + '/' + case_name
                 if not os.path.exists(case_file):
                     logging.info("生成用例文件: {}".format(case_file))
                     write_yaml_file(case_file, case_list)
 
                 case_file_list.append(case_file)
     return case_file_list
-'''
+
 
 if __name__ == '__main__':
     real_path = os.path.dirname(os.path.realpath(__file__)).replace('\\', '/')
-    # print('测试用例列表: ', write_case_yaml(real_path+'/data'))
+    print('测试用例列表: ', write_case_yaml(real_path + '/data'))

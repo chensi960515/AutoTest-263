@@ -33,6 +33,7 @@ if __name__ == '__main__':
     else:
         logging.info("不开启自动生成测试用例功能，将直接运行测试！")
 
+    logging.info(RC['process'])
     # 定义运行参数
     args_list = ['-vs', TEST_DIR,
                  '-n', str(RC['process']),
@@ -45,7 +46,9 @@ if __name__ == '__main__':
     if RC['pattern']:
         args_list += ['-k ' + str(RC['pattern'])]
     test_result = pytest.main(args_list)
+    logging.info(args_list)
 
     # 生成allure报告
     cmd = 'allure generate --clean %s -o %s ' % (REPORT_DIR + '/xml', REPORT_DIR + '/html')
+    logging.info(cmd)
     os.system(cmd)
