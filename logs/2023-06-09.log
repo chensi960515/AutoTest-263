@@ -1,0 +1,4 @@
+2023-06-09 00:31:08,590 - startup.py - INFO: 不开启自动生成测试用例功能，将直接运行测试！
+2023-06-09 00:31:08,590 - startup.py - INFO: 0
+2023-06-09 00:31:09,087 - startup.py - INFO: ['-vs', 'PyDemo/testcase', '-n', '0', '--reruns', '3', '--maxfail', '6', '--alluredir', 'PyDemo/report/xml', '--clean-alluredir', '--disable-warnings']
+2023-06-09 00:31:09,087 - startup.py - INFO: allure generate --clean PyDemo/report/xml -o PyDemo/report/html 
