@@ -46,6 +46,7 @@ if __name__ == '__main__':
     if RC['pattern']:
         args_list += ['-k ' + str(RC['pattern'])]
     test_result = pytest.main(args_list)
+    logging.info(test_result)
     logging.info(args_list)
 
     # 生成allure报告

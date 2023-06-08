@@ -8,6 +8,7 @@
 @time       : 2022/10/20  22:51
 ******************************
 """
+import logging
 
 
 def read_yaml_data(yaml_file):

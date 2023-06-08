@@ -1,4 +1,138 @@
-2023-06-09 00:31:08,590 - startup.py - INFO: 不开启自动生成测试用例功能，将直接运行测试！
-2023-06-09 00:31:08,590 - startup.py - INFO: 0
-2023-06-09 00:31:09,087 - startup.py - INFO: ['-vs', 'PyDemo/testcase', '-n', '0', '--reruns', '3', '--maxfail', '6', '--alluredir', 'PyDemo/report/xml', '--clean-alluredir', '--disable-warnings']
-2023-06-09 00:31:09,087 - startup.py - INFO: allure generate --clean PyDemo/report/xml -o PyDemo/report/html 
+2023-06-09 00:48:41,691 - startup.py - INFO: 不开启自动生成测试用例功能，将直接运行测试！
+2023-06-09 00:48:41,691 - startup.py - INFO: 0
+2023-06-09 00:48:41,929 - test_getConfData.py - INFO: file_path=======D:/Work/AutoTest-263/PyDemo/testcase/cvp/test_getConfData.py
+2023-06-09 00:48:41,929 - test_getConfData.py - INFO: ******************************************************************************************************************************************************
+2023-06-09 00:48:41,929 - test_getConfData.py - INFO: case_yaml=======D:/Work/AutoTest-263/PyDemo/page/cvp/test_getConfData.yaml
+2023-06-09 00:48:41,929 - test_getConfData.py - INFO: ******************************************************************************************************************************************************
+2023-06-09 00:48:41,929 - readYaml.py - INFO: <class '_io.TextIOWrapper'>
+2023-06-09 00:48:42,022 - startup.py - INFO: ['-vs', 'PyDemo/testcase', '-n', '0', '--reruns', '3', '--maxfail', '6', '--alluredir', 'PyDemo/report/xml', '--clean-alluredir', '--disable-warnings']
+2023-06-09 00:48:42,022 - startup.py - INFO: allure generate --clean PyDemo/report/xml -o PyDemo/report/html 
+2023-06-09 00:49:14,600 - startup.py - INFO: 不开启自动生成测试用例功能，将直接运行测试！
+2023-06-09 00:49:14,600 - startup.py - INFO: 0
+2023-06-09 00:49:14,855 - test_getConfData.py - INFO: file_path=======D:/Work/AutoTest-263/PyDemo/testcase/cvp/test_getConfData.py
+2023-06-09 00:49:14,855 - test_getConfData.py - INFO: ******************************************************************************************************************************************************
+2023-06-09 00:49:14,855 - test_getConfData.py - INFO: case_yaml=======D:/Work/AutoTest-263/PyDemo/page/cvp/test_getConfData.yaml
+2023-06-09 00:49:14,855 - test_getConfData.py - INFO: ******************************************************************************************************************************************************
+2023-06-09 00:49:14,856 - readYaml.py - INFO: <_io.TextIOWrapper name='D:/Work/AutoTest-263/PyDemo/page/cvp/test_getConfData.yaml' mode='r' encoding='utf-8'>
+2023-06-09 00:49:14,955 - startup.py - INFO: ['-vs', 'PyDemo/testcase', '-n', '0', '--reruns', '3', '--maxfail', '6', '--alluredir', 'PyDemo/report/xml', '--clean-alluredir', '--disable-warnings']
+2023-06-09 00:49:14,955 - startup.py - INFO: allure generate --clean PyDemo/report/xml -o PyDemo/report/html 
+2023-06-09 00:49:48,772 - startup.py - INFO: 不开启自动生成测试用例功能，将直接运行测试！
+2023-06-09 00:49:48,773 - startup.py - INFO: 0
+2023-06-09 00:49:49,006 - test_getConfData.py - INFO: file_path=======D:/Work/AutoTest-263/PyDemo/testcase/cvp/test_getConfData.py
+2023-06-09 00:49:49,006 - test_getConfData.py - INFO: ******************************************************************************************************************************************************
+2023-06-09 00:49:49,006 - test_getConfData.py - INFO: case_yaml=======D:/Work/AutoTest-263/PyDemo/page/cvp/test_getConfData.yaml
+2023-06-09 00:49:49,006 - test_getConfData.py - INFO: ******************************************************************************************************************************************************
+2023-06-09 00:49:49,100 - startup.py - INFO: ['-vs', 'PyDemo/testcase', '-n', '0', '--reruns', '3', '--maxfail', '6', '--alluredir', 'PyDemo/report/xml', '--clean-alluredir', '--disable-warnings']
+2023-06-09 00:49:49,100 - startup.py - INFO: allure generate --clean PyDemo/report/xml -o PyDemo/report/html 
+2023-06-09 00:50:31,540 - startup.py - INFO: 不开启自动生成测试用例功能，将直接运行测试！
+2023-06-09 00:50:31,540 - startup.py - INFO: 0
+2023-06-09 00:50:31,784 - test_getConfData.py - INFO: file_path=======D:/Work/AutoTest-263/PyDemo/testcase/cvp/test_getConfData.py
+2023-06-09 00:50:31,784 - test_getConfData.py - INFO: ******************************************************************************************************************************************************
+2023-06-09 00:50:31,784 - test_getConfData.py - INFO: case_yaml=======D:/Work/AutoTest-263/PyDemo/page/cvp/test_getConfData.yaml
+2023-06-09 00:50:31,784 - test_getConfData.py - INFO: ******************************************************************************************************************************************************
+2023-06-09 00:50:31,786 - test_getConfData.py - INFO: test_case======={'test_info': {'title': 'register', 'host': '${host}', 'scheme': '${scheme}', 'method': 'POST', 'address': '/api/register/addOrUpCurBact', 'mime_type': 'application/x-www-form-urlencoded', 'headers': '${headers}', 'timeout': '${timeout}', 'file': False, 'cookies': False, 'premise': '/register/test_getAdultCurbactList.yaml'}, 'test_case': [{'summary': 'addOrUpCurBact', 'describe': 'test_addOrUpCurBact', 'parameter': 'addOrUpCurBact_request.json', 'check_body': {'check_type': 'check_json', 'expected_code': 200, 'expected_result': {'success': True, 'code': None, 'msg': '返回成功', 'data': None, 'callTime': None}}}]}
+2023-06-09 00:50:31,788 - startup.py - INFO: ['-vs', 'PyDemo/testcase', '-n', '0', '--reruns', '3', '--maxfail', '6', '--alluredir', 'PyDemo/report/xml', '--clean-alluredir', '--disable-warnings']
+2023-06-09 00:50:31,788 - startup.py - INFO: allure generate --clean PyDemo/report/xml -o PyDemo/report/html 
+2023-06-09 00:53:09,127 - startup.py - INFO: 不开启自动生成测试用例功能，将直接运行测试！
+2023-06-09 00:53:09,127 - startup.py - INFO: 0
+2023-06-09 00:53:09,371 - test_getConfData.py - INFO: file_path=======D:/Work/AutoTest-263/PyDemo/testcase/cvp/test_getConfData.py
+2023-06-09 00:53:09,371 - test_getConfData.py - INFO: ******************************************************************************************************************************************************
+2023-06-09 00:53:09,371 - test_getConfData.py - INFO: case_yaml=======D:/Work/AutoTest-263/PyDemo/page/cvp/test_getConfData.yaml
+2023-06-09 00:53:09,371 - test_getConfData.py - INFO: ******************************************************************************************************************************************************
+2023-06-09 00:53:09,372 - test_getConfData.py - INFO: test_case======={'test_info': {'title': 'register', 'host': '${host}', 'scheme': '${scheme}', 'method': 'POST', 'address': '/api/register/addOrUpCurBact', 'mime_type': 'application/x-www-form-urlencoded', 'headers': '${headers}', 'timeout': '${timeout}', 'file': False, 'cookies': False, 'premise': '/register/test_getAdultCurbactList.yaml'}, 'test_case': [{'summary': 'addOrUpCurBact', 'describe': 'test_addOrUpCurBact', 'parameter': 'addOrUpCurBact_request.json', 'check_body': {'check_type': 'check_json', 'expected_code': 200, 'expected_result': {'success': True, 'code': None, 'msg': '返回成功', 'data': None, 'callTime': None}}}]}
+2023-06-09 00:53:09,374 - startup.py - INFO: ['-vs', 'PyDemo/testcase', '-n', '0', '--reruns', '3', '--maxfail', '6', '--alluredir', 'PyDemo/report/xml', '--clean-alluredir', '--disable-warnings']
+2023-06-09 00:53:09,374 - startup.py - INFO: allure generate --clean PyDemo/report/xml -o PyDemo/report/html 
+2023-06-09 00:53:48,037 - startup.py - INFO: 不开启自动生成测试用例功能，将直接运行测试！
+2023-06-09 00:53:48,037 - startup.py - INFO: 0
+2023-06-09 00:53:48,437 - test_getConfData.py - INFO: file_path=======D:/Work/AutoTest-263/PyDemo/testcase/cvp/test_getConfData.py
+2023-06-09 00:53:48,438 - test_getConfData.py - INFO: ******************************************************************************************************************************************************
+2023-06-09 00:53:48,438 - test_getConfData.py - INFO: case_yaml=======D:/Work/AutoTest-263/PyDemo/page/cvp/test_getConfData.yaml
+2023-06-09 00:53:48,438 - test_getConfData.py - INFO: ******************************************************************************************************************************************************
+2023-06-09 00:53:48,444 - test_getConfData.py - INFO: test_case======={'test_info': {'title': 'register', 'host': '${host}', 'scheme': '${scheme}', 'method': 'POST', 'address': '/api/register/addOrUpCurBact', 'mime_type': 'application/x-www-form-urlencoded', 'headers': '${headers}', 'timeout': '${timeout}', 'file': False, 'cookies': False, 'premise': '/register/test_getAdultCurbactList.yaml'}, 'test_case': [{'summary': 'addOrUpCurBact', 'describe': 'test_addOrUpCurBact', 'parameter': 'addOrUpCurBact_request.json', 'check_body': {'check_type': 'check_json', 'expected_code': 200, 'expected_result': {'success': True, 'code': None, 'msg': '返回成功', 'data': None, 'callTime': None}}}]}
+2023-06-09 00:53:48,448 - startup.py - INFO: ['-vs', 'PyDemo/testcase', '-n', '0', '--reruns', '3', '--maxfail', '6', '--alluredir', 'PyDemo/report/xml', '--clean-alluredir', '--disable-warnings']
+2023-06-09 00:53:48,448 - startup.py - INFO: allure generate --clean PyDemo/report/xml -o PyDemo/report/html 
+2023-06-09 01:18:37,265 - startup.py - INFO: 不开启自动生成测试用例功能，将直接运行测试！
+2023-06-09 01:18:37,265 - startup.py - INFO: 0
+2023-06-09 01:18:37,506 - test_getConfData.py - INFO: file_path=======D:/Work/AutoTest-263/PyDemo/testcase/cvp/test_getConfData.py
+2023-06-09 01:18:37,506 - test_getConfData.py - INFO: ******************************************************************************************************************************************************
+2023-06-09 01:18:37,506 - test_getConfData.py - INFO: case_yaml=======D:/Work/AutoTest-263/PyDemo/page/cvp/test_getConfData.yaml
+2023-06-09 01:18:37,506 - test_getConfData.py - INFO: ******************************************************************************************************************************************************
+2023-06-09 01:18:37,508 - test_getConfData.py - INFO: test_case======={'test_info': {'title': 'register', 'host': '${host}', 'scheme': '${scheme}', 'method': 'POST', 'address': '/api/register/addOrUpCurBact', 'mime_type': 'application/x-www-form-urlencoded', 'headers': '${headers}', 'timeout': '${timeout}', 'file': False, 'cookies': False, 'premise': '/register/test_getAdultCurbactList.yaml'}, 'test_case': [{'summary': 'addOrUpCurBact', 'describe': 'test_addOrUpCurBact', 'parameter': 'addOrUpCurBact_request.json', 'check_body': {'check_type': 'check_json', 'expected_code': 200, 'expected_result': {'success': True, 'code': None, 'msg': '返回成功', 'data': None, 'callTime': None}}}]}
+2023-06-09 01:18:37,510 - startup.py - INFO: ['-vs', 'PyDemo/testcase', '-n', '0', '--reruns', '3', '--maxfail', '6', '--alluredir', 'PyDemo/report/xml', '--clean-alluredir', '--disable-warnings']
+2023-06-09 01:18:37,510 - startup.py - INFO: allure generate --clean PyDemo/report/xml -o PyDemo/report/html 
+2023-06-09 01:19:33,899 - startup.py - INFO: 不开启自动生成测试用例功能，将直接运行测试！
+2023-06-09 01:19:33,899 - startup.py - INFO: 0
+2023-06-09 01:19:34,140 - test_getConfData.py - INFO: file_path=======D:/Work/AutoTest-263/PyDemo/testcase/cvp/test_getConfData.py
+2023-06-09 01:19:34,140 - test_getConfData.py - INFO: ******************************************************************************************************************************************************
+2023-06-09 01:19:34,140 - test_getConfData.py - INFO: case_yaml=======D:/Work/AutoTest-263/PyDemo/page/cvp/test_getConfData.yaml
+2023-06-09 01:19:34,140 - test_getConfData.py - INFO: ******************************************************************************************************************************************************
+2023-06-09 01:19:34,142 - test_getConfData.py - INFO: test_case======={'test_info': {'title': 'register', 'host': '${host}', 'scheme': '${scheme}', 'method': 'POST', 'address': '/api/register/addOrUpCurBact', 'mime_type': 'application/x-www-form-urlencoded', 'headers': '${headers}', 'timeout': '${timeout}', 'file': False, 'cookies': False, 'premise': '/register/test_getAdultCurbactList.yaml'}, 'test_case': [{'summary': 'addOrUpCurBact', 'describe': 'test_addOrUpCurBact', 'parameter': 'addOrUpCurBact_request.json', 'check_body': {'check_type': 'check_json', 'expected_code': 200, 'expected_result': {'success': True, 'code': None, 'msg': '返回成功', 'data': None, 'callTime': None}}}]}
+2023-06-09 01:19:34,143 - startup.py - INFO: ['-vs', 'PyDemo/testcase', '-n', '0', '--reruns', '3', '--maxfail', '6', '--alluredir', 'PyDemo/report/xml', '--clean-alluredir', '--disable-warnings']
+2023-06-09 01:19:34,143 - startup.py - INFO: allure generate --clean PyDemo/report/xml -o PyDemo/report/html 
+2023-06-09 01:20:06,039 - startup.py - INFO: 不开启自动生成测试用例功能，将直接运行测试！
+2023-06-09 01:20:06,040 - startup.py - INFO: 0
+2023-06-09 01:20:06,276 - test_getConfData.py - INFO: file_path=======D:/Work/AutoTest-263/PyDemo/testcase/cvp/test_getConfData.py
+2023-06-09 01:20:06,276 - test_getConfData.py - INFO: ******************************************************************************************************************************************************
+2023-06-09 01:20:06,276 - test_getConfData.py - INFO: case_yaml=======D:/Work/AutoTest-263/PyDemo/page/cvp/test_getConfData.yaml
+2023-06-09 01:20:06,276 - test_getConfData.py - INFO: ******************************************************************************************************************************************************
+2023-06-09 01:20:06,278 - test_getConfData.py - INFO: test_case======={'test_info': {'title': 'register', 'host': '${host}', 'scheme': '${scheme}', 'method': 'POST', 'address': '/api/register/addOrUpCurBact', 'mime_type': 'application/x-www-form-urlencoded', 'headers': '${headers}', 'timeout': '${timeout}', 'file': False, 'cookies': False, 'premise': '/register/test_getAdultCurbactList.yaml'}, 'test_case': [{'summary': 'addOrUpCurBact', 'describe': 'test_addOrUpCurBact', 'parameter': 'addOrUpCurBact_request.json', 'check_body': {'check_type': 'check_json', 'expected_code': 200, 'expected_result': {'success': True, 'code': None, 'msg': '返回成功', 'data': None, 'callTime': None}}}]}
+2023-06-09 01:20:06,279 - startup.py - INFO: ['-vs', 'PyDemo/testcase', '-n', '0', '--reruns', '3', '--maxfail', '6', '--alluredir', 'PyDemo/report/xml', '--clean-alluredir', '--disable-warnings']
+2023-06-09 01:20:06,279 - startup.py - INFO: allure generate --clean PyDemo/report/xml -o PyDemo/report/html 
+2023-06-09 01:20:36,491 - startup.py - INFO: 不开启自动生成测试用例功能，将直接运行测试！
+2023-06-09 01:20:36,491 - startup.py - INFO: 0
+2023-06-09 01:20:36,738 - test_getConfData.py - INFO: file_path=======D:/Work/AutoTest-263/PyDemo/testcase/cvp/test_getConfData.py
+2023-06-09 01:20:36,738 - test_getConfData.py - INFO: ******************************************************************************************************************************************************
+2023-06-09 01:20:36,738 - test_getConfData.py - INFO: case_yaml=======D:/Work/AutoTest-263/PyDemo/page/cvp/test_getConfData.yaml
+2023-06-09 01:20:36,738 - test_getConfData.py - INFO: ******************************************************************************************************************************************************
+2023-06-09 01:20:36,740 - test_getConfData.py - INFO: test_case======={'test_info': {'title': 'register', 'host': '${host}', 'scheme': '${scheme}', 'method': 'POST', 'address': '/api/register/addOrUpCurBact', 'mime_type': 'application/x-www-form-urlencoded', 'headers': '${headers}', 'timeout': '${timeout}', 'file': False, 'cookies': False, 'premise': '/register/test_getAdultCurbactList.yaml'}, 'test_case': [{'summary': 'addOrUpCurBact', 'describe': 'test_addOrUpCurBact', 'parameter': 'addOrUpCurBact_request.json', 'check_body': {'check_type': 'check_json', 'expected_code': 200, 'expected_result': {'success': True, 'code': None, 'msg': '返回成功', 'data': None, 'callTime': None}}}]}
+2023-06-09 01:20:36,742 - startup.py - INFO: ['-vs', 'PyDemo/testcase', '-n', '0', '--reruns', '3', '--maxfail', '6', '--alluredir', 'PyDemo/report/xml', '--clean-alluredir', '--disable-warnings']
+2023-06-09 01:20:36,742 - startup.py - INFO: allure generate --clean PyDemo/report/xml -o PyDemo/report/html 
+2023-06-09 01:21:34,782 - startup.py - INFO: 不开启自动生成测试用例功能，将直接运行测试！
+2023-06-09 01:21:34,782 - startup.py - INFO: 0
+2023-06-09 01:21:35,021 - test_getConfData.py - INFO: file_path=======D:/Work/AutoTest-263/PyDemo/testcase/cvp/test_getConfData.py
+2023-06-09 01:21:35,021 - test_getConfData.py - INFO: ******************************************************************************************************************************************************
+2023-06-09 01:21:35,021 - test_getConfData.py - INFO: case_yaml=======D:/Work/AutoTest-263/PyDemo/page/cvp/test_getConfData.yaml
+2023-06-09 01:21:35,021 - test_getConfData.py - INFO: ******************************************************************************************************************************************************
+2023-06-09 01:21:35,023 - test_getConfData.py - INFO: test_case======={'test_info': {'title': 'register', 'host': '${host}', 'scheme': '${scheme}', 'method': 'POST', 'address': '/api/register/addOrUpCurBact', 'mime_type': 'application/x-www-form-urlencoded', 'headers': '${headers}', 'timeout': '${timeout}', 'file': False, 'cookies': False, 'premise': '/register/test_getAdultCurbactList.yaml'}, 'test_case': [{'summary': 'addOrUpCurBact', 'describe': 'test_addOrUpCurBact', 'parameter': 'addOrUpCurBact_request.json', 'check_body': {'check_type': 'check_json', 'expected_code': 200, 'expected_result': {'success': True, 'code': None, 'msg': '返回成功', 'data': None, 'callTime': None}}}]}
+2023-06-09 01:21:35,024 - startup.py - INFO: ['-vs', 'PyDemo/testcase', '-n', '0', '--reruns', '3', '--maxfail', '6', '--alluredir', 'PyDemo/report/xml', '--clean-alluredir', '--disable-warnings']
+2023-06-09 01:21:35,024 - startup.py - INFO: allure generate --clean PyDemo/report/xml -o PyDemo/report/html 
+2023-06-09 01:22:24,245 - startup.py - INFO: 不开启自动生成测试用例功能，将直接运行测试！
+2023-06-09 01:22:24,245 - startup.py - INFO: 0
+2023-06-09 01:22:24,487 - test_getConfData.py - INFO: file_path=======D:/Work/AutoTest-263/PyDemo/testcase/cvp/test_getConfData.py
+2023-06-09 01:22:24,487 - test_getConfData.py - INFO: ******************************************************************************************************************************************************
+2023-06-09 01:22:24,487 - test_getConfData.py - INFO: case_yaml=======D:/Work/AutoTest-263/PyDemo/page/cvp/test_getConfData.yaml
+2023-06-09 01:22:24,487 - test_getConfData.py - INFO: ******************************************************************************************************************************************************
+2023-06-09 01:22:24,489 - test_getConfData.py - INFO: test_case======={'test_info': {'title': 'register', 'host': '${host}', 'scheme': '${scheme}', 'method': 'POST', 'address': '/api/register/addOrUpCurBact', 'mime_type': 'application/x-www-form-urlencoded', 'headers': '${headers}', 'timeout': '${timeout}', 'file': False, 'cookies': False, 'premise': '/register/test_getAdultCurbactList.yaml'}, 'test_case': [{'summary': 'addOrUpCurBact', 'describe': 'test_addOrUpCurBact', 'parameter': 'addOrUpCurBact_request.json', 'check_body': {'check_type': 'check_json', 'expected_code': 200, 'expected_result': {'success': True, 'code': None, 'msg': '返回成功', 'data': None, 'callTime': None}}}]}
+2023-06-09 01:22:24,489 - test_getConfData.py - INFO: -----进入GetConfData--------
+2023-06-09 01:22:24,490 - startup.py - INFO: ['-vs', 'PyDemo/testcase', '-n', '0', '--reruns', '3', '--maxfail', '6', '--alluredir', 'PyDemo/report/xml', '--clean-alluredir', '--disable-warnings']
+2023-06-09 01:22:24,491 - startup.py - INFO: allure generate --clean PyDemo/report/xml -o PyDemo/report/html 
+2023-06-09 01:27:25,913 - startup.py - INFO: 不开启自动生成测试用例功能，将直接运行测试！
+2023-06-09 01:27:25,913 - startup.py - INFO: 0
+2023-06-09 01:27:26,145 - test_getConfData.py - INFO: file_path=======D:/Work/AutoTest-263/PyDemo/testcase/cvp/test_getConfData.py
+2023-06-09 01:27:26,145 - test_getConfData.py - INFO: ******************************************************************************************************************************************************
+2023-06-09 01:27:26,145 - test_getConfData.py - INFO: case_yaml=======D:/Work/AutoTest-263/PyDemo/page/cvp/test_getConfData.yaml
+2023-06-09 01:27:26,145 - test_getConfData.py - INFO: ******************************************************************************************************************************************************
+2023-06-09 01:27:26,147 - test_getConfData.py - INFO: test_case======={'test_info': {'title': 'register', 'host': '${host}', 'scheme': '${scheme}', 'method': 'POST', 'address': '/api/register/addOrUpCurBact', 'mime_type': 'application/x-www-form-urlencoded', 'headers': '${headers}', 'timeout': '${timeout}', 'file': False, 'cookies': False, 'premise': '/register/test_getAdultCurbactList.yaml'}, 'test_case': [{'summary': 'addOrUpCurBact', 'describe': 'test_addOrUpCurBact', 'parameter': 'addOrUpCurBact_request.json', 'check_body': {'check_type': 'check_json', 'expected_code': 200, 'expected_result': {'success': True, 'code': None, 'msg': '返回成功', 'data': None, 'callTime': None}}}]}
+2023-06-09 01:27:26,147 - test_getConfData.py - INFO: -----进入GetConfData--------
+2023-06-09 01:27:26,149 - startup.py - INFO: ['-vs', 'PyDemo/testcase', '-n', '0', '--reruns', '3', '--maxfail', '6', '--alluredir', 'PyDemo/report/xml', '--clean-alluredir', '--disable-warnings']
+2023-06-09 01:27:26,149 - startup.py - INFO: allure generate --clean PyDemo/report/xml -o PyDemo/report/html 
+2023-06-09 01:28:03,886 - startup.py - INFO: 不开启自动生成测试用例功能，将直接运行测试！
+2023-06-09 01:28:03,886 - startup.py - INFO: 0
+2023-06-09 01:28:04,119 - test_getConfData.py - INFO: file_path=======D:/Work/AutoTest-263/PyDemo/testcase/cvp/test_getConfData.py
+2023-06-09 01:28:04,119 - test_getConfData.py - INFO: ******************************************************************************************************************************************************
+2023-06-09 01:28:04,119 - test_getConfData.py - INFO: case_yaml=======D:/Work/AutoTest-263/PyDemo/page/cvp/test_getConfData.yaml
+2023-06-09 01:28:04,119 - test_getConfData.py - INFO: ******************************************************************************************************************************************************
+2023-06-09 01:28:04,121 - test_getConfData.py - INFO: test_case======={'test_info': {'title': 'register', 'host': '${host}', 'scheme': '${scheme}', 'method': 'POST', 'address': '/api/register/addOrUpCurBact', 'mime_type': 'application/x-www-form-urlencoded', 'headers': '${headers}', 'timeout': '${timeout}', 'file': False, 'cookies': False, 'premise': '/register/test_getAdultCurbactList.yaml'}, 'test_case': [{'summary': 'addOrUpCurBact', 'describe': 'test_addOrUpCurBact', 'parameter': 'addOrUpCurBact_request.json', 'check_body': {'check_type': 'check_json', 'expected_code': 200, 'expected_result': {'success': True, 'code': None, 'msg': '返回成功', 'data': None, 'callTime': None}}}]}
+2023-06-09 01:28:04,121 - test_getConfData.py - INFO: -----进入GetConfData--------
+2023-06-09 01:28:04,122 - startup.py - INFO: ExitCode.NO_TESTS_COLLECTED
+2023-06-09 01:28:04,122 - startup.py - INFO: ['-vs', 'PyDemo/testcase', '-n', '0', '--reruns', '3', '--maxfail', '6', '--alluredir', 'PyDemo/report/xml', '--clean-alluredir', '--disable-warnings']
+2023-06-09 01:28:04,122 - startup.py - INFO: allure generate --clean PyDemo/report/xml -o PyDemo/report/html 
+2023-06-09 01:41:25,288 - startup.py - INFO: 不开启自动生成测试用例功能，将直接运行测试！
+2023-06-09 01:41:25,289 - startup.py - INFO: 0
+2023-06-09 01:41:25,530 - test_getConfData.py - INFO: file_path=======D:/Work/AutoTest-263/PyDemo/testcase/cvp/test_getConfData.py
+2023-06-09 01:41:25,530 - test_getConfData.py - INFO: ******************************************************************************************************************************************************
+2023-06-09 01:41:25,530 - test_getConfData.py - INFO: case_yaml=======D:/Work/AutoTest-263/PyDemo/page/cvp/test_getConfData.yaml
+2023-06-09 01:41:25,530 - test_getConfData.py - INFO: ******************************************************************************************************************************************************
+2023-06-09 01:41:25,627 - startup.py - INFO: ExitCode.INTERRUPTED
+2023-06-09 01:41:25,627 - startup.py - INFO: ['-vs', 'PyDemo/testcase', '-n', '0', '--reruns', '3', '--maxfail', '6', '--alluredir', 'PyDemo/report/xml', '--clean-alluredir', '--disable-warnings']
+2023-06-09 01:41:25,627 - startup.py - INFO: allure generate --clean PyDemo/report/xml -o PyDemo/report/html 

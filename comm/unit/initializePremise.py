@@ -53,6 +53,7 @@ def init_premise(test_info, case_data, case_path):
     :param case_path: 用例路径
     :return:
     """
+    logging.info("-----------initializePremise1-----------------")
     # 获取项目公共关联值
     aconfig = readYaml.read_yaml_data(API_CONFIG)
     __relevance = aconfig[PROJECT_NAME]
@@ -131,4 +132,5 @@ def init_premise(test_info, case_data, case_path):
         case_data['check_body']['expected_result'] = expected_rs
         logging.debug("期望返回处理结果：{}".format(case_data))
 
+    logging.info("-----------initializePremise2-----------------")
     return test_info, case_data
