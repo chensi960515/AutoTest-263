@@ -16,7 +16,7 @@ pattern:
 process: 0
 
 # 失败重试次数（0表示不重试）
-reruns: 3
+reruns: 0
 
 # 本轮测试最大允许失败数（超出则立即结束测试）
 maxfail: 6

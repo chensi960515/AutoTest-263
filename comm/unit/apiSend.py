@@ -139,7 +139,6 @@ def send_request(test_info, case_data):
                                   timeout=timeout)
     else:
         result = {"code": None, "data": None}
-    logging.info("111111111111111111111111")
     logging.info("请求接口结果：\n %s" % str(result))
     time.sleep(INTERVAL)
     return result

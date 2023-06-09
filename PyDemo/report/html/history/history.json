@@ -1,1 +1,1 @@
-{}
+{"585c0f2505eaf3ca5d3e817befa04766":{"statistic":{"failed":0,"broken":1,"skipped":0,"passed":0,"unknown":0,"total":1},"items":[{"uid":"6b18f1326a68327d","status":"broken","statusDetails":"ValueError: invalid literal for int() with base 10: 'code'","time":{"start":1686328433746,"stop":1686328434757,"duration":1011}}]}}
