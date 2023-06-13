@@ -1,1 +1,11 @@
-[{"uid":"6b18f1326a68327d","name":"test_getConfData[test_case0]","time":{"start":1686328433746,"stop":1686328434757,"duration":1011},"status":"broken","severity":"normal"}]
+[ {
+  "uid" : "57907d821c1c7e56",
+  "name" : "test_getConfData[test_case0-init_sign0]",
+  "time" : {
+    "start" : 1686627208731,
+    "stop" : 1686627209736,
+    "duration" : 1005
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

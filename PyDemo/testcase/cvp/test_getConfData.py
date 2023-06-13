@@ -27,6 +27,8 @@ case_data = read_yaml_data(case_yaml)
 @allure.feature(case_data["test_info"]["title"])
 class TestRegister:
 
+    @pytest.mark.usefixtures('init_sign')
+    @pytest.mark.parametrize('init_sign', case_data["test_case"], indirect=True)
     @pytest.mark.parametrize("test_case", case_data["test_case"])
     @allure.story("test_getConfData")
     def test_getConfData(self, test_case):

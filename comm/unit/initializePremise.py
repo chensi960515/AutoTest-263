@@ -132,5 +132,4 @@ def init_premise(test_info, case_data, case_path):
         case_data['check_body']['expected_result'] = expected_rs
         logging.debug("期望返回处理结果：{}".format(case_data))
 
-    logging.info("-----------initializePremise2-----------------")
     return test_info, case_data

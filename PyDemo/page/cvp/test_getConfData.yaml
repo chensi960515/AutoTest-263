@@ -13,14 +13,38 @@
 test_case:
 - summary: getConfData
   describe: test_getConfData
+  sign_parameter:
+      sign_params:
+        appId: TOXsP7cm0t
+        sign:
+        tag:
+        uid: 100003723184
+        Appkey: d0001284fc586944036c2d139c3e7bac
+        timestamp:
   parameter:
-    parameter:
       params:
-        unitCode: '3202112002'
-        first: 0
-        pym: ''
-        pageSize: 10
-        page: 0
+        title: '44444'
+        mode: 0
+        defalut_streaming_source: 0
+        is_auto_live: true
+        pull_stream_url: rtmp://testextlive.link263.com:19351/cv_live/1547510535023497313#MKYObFjE?auth_key=1973150237817-1547510535023497313-d36731488d959eedaedd3ad4757b7288
+        is_many_streaming: false
+        is_ultra_hd: false
+        master_control_mode: 0
+        start_time: '1686625781'
+        end_time: '1786625781'
+        host_password: HPYEDC
+        guest_password: ZWOB5A
+        assistants_password: 3N9CAI
+        password: KPii40
+        live_time_delay: 1
+        video_source_ratio: 0
+        is_auto_recording: true
+        is_join_voip: true
+        record_resolution:
+          is_record_resolution_hd: true
+          is_record_resolution_ld: true
+          is_record_resolution_ud: false
   check_body:
     check_type: check_json
     expected_code: 200

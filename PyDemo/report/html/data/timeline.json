@@ -1,1 +1,26 @@
-{"uid":"ab17fc5a4eb3bca4b216b548c7f9fcbc","name":"timeline","children":[{"name":"DESKTOP-M0M38FO","children":[{"name":"9444-MainThread","children":[{"name":"test_getConfData[test_case0]","uid":"6b18f1326a68327d","parentUid":"d5adacbcf43ae762f99205e481daef87","status":"broken","time":{"start":1686328433746,"stop":1686328434757,"duration":1011},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":["{'summary': 'getConfData', 'describe': 'test_getConfData', 'parameter': {'parameter': {'params': {'unitCode': '3202112002', 'first': 0, 'pym': '', 'pageSize': 10, 'page': 0}}}, 'check_body': {'check_type': 'check_json', 'expected_code': 200, 'expected_result': {'success': True, 'code': None, 'msg': '返回成功', 'data': None, 'callTime': None}}}"],"tags":[]}],"uid":"d5adacbcf43ae762f99205e481daef87"}],"uid":"41c47fe94e21c6e45a417236fd45a5f4"}]}
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-CRQMLNF",
+    "children" : [ {
+      "name" : "91880-MainThread",
+      "children" : [ {
+        "name" : "test_getConfData[test_case0-init_sign0]",
+        "uid" : "57907d821c1c7e56",
+        "parentUid" : "884b88c082d5a00ca3bc3d5a164c597f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1686627208731,
+          "stop" : 1686627209736,
+          "duration" : 1005
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'summary': 'getConfData', 'describe': 'test_getConfData', 'parameter': {'parameter': {'sign_params': {'appId': 'TOXsP7cm0t', 'sign': None, 'tag': None, 'uid': 100003723184, 'Appkey': 'd0001284fc586944036c2d139c3e7bac', 'timestamp': None}, 'params': {'title': '44444', 'mode': 0, 'defalut_streaming_source': 0, 'is_auto_live': True, 'pull_stream_url': 'rtmp://testextlive.link263.com:19351/cv_live/1547510535023497313#MKYObFjE?auth_key=1973150237817-1547510535023497313-d36731488d959eedaedd3ad4757b7288', 'is_many_streaming': False, 'is_ultra_hd': False, 'master_control_mode': 0, 'start_time': '1686625781', 'end_time': '1786625781', 'host_password': 'HPYEDC', 'guest_password': 'ZWOB5A', 'assistants_password': '3N9CAI', 'password': 'KPii40', 'live_time_delay': 1, 'video_source_ratio': 0, 'is_auto_recording': True, 'is_join_voip': True, 'record_resolution': {'is_record_resolution_hd': True, 'is_record_resolution_ld': True, 'is_record_resolution_ud': False}}}}, 'check_body': {'check_type': 'check_json', 'expected_code': 200, 'expected_result': {'success': True, 'code': None, 'msg': '返回成功', 'data': None, 'callTime': None}}}", "{'summary': 'getConfData', 'describe': 'test_getConfData', 'parameter': {'parameter': {'sign_params': {'appId': 'TOXsP7cm0t', 'sign': None, 'tag': None, 'uid': 100003723184, 'Appkey': 'd0001284fc586944036c2d139c3e7bac', 'timestamp': None}, 'params': {'title': '44444', 'mode': 0, 'defalut_streaming_source': 0, 'is_auto_live': True, 'pull_stream_url': 'rtmp://testextlive.link263.com:19351/cv_live/1547510535023497313#MKYObFjE?auth_key=1973150237817-1547510535023497313-d36731488d959eedaedd3ad4757b7288', 'is_many_streaming': False, 'is_ultra_hd': False, 'master_control_mode': 0, 'start_time': '1686625781', 'end_time': '1786625781', 'host_password': 'HPYEDC', 'guest_password': 'ZWOB5A', 'assistants_password': '3N9CAI', 'password': 'KPii40', 'live_time_delay': 1, 'video_source_ratio': 0, 'is_auto_recording': True, 'is_join_voip': True, 'record_resolution': {'is_record_resolution_hd': True, 'is_record_resolution_ld': True, 'is_record_resolution_ud': False}}}}, 'check_body': {'check_type': 'check_json', 'expected_code': 200, 'expected_result': {'success': True, 'code': None, 'msg': '返回成功', 'data': None, 'callTime': None}}}" ]
+      } ],
+      "uid" : "884b88c082d5a00ca3bc3d5a164c597f"
+    } ],
+    "uid" : "39a8868b8acd8a82afba22c7b6cd40b3"
+  } ]
+}
