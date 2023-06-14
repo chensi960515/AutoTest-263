@@ -5,21 +5,29 @@
 # @Project : AutoTest-263
 import json
 import copy
+import time
+import logging
+import hashlib
 
-json_obj = {'title': '44444', 'mode': 0, 'defalut_streaming_source': 0, 'is_auto_live': True,
-            'pull_stream_url': 'rtmp://testextlive.link263.com:19351/cv_live/1547510535023497313#MKYObFjE?auth_key=1973150237817-1547510535023497313-d36731488d959eedaedd3ad4757b7288',
-            'is_many_streaming': False, 'is_ultra_hd': False, 'master_control_mode': 0, 'start_time': '1686625781',
-            'end_time': '1786625781', 'host_password': 'HPYEDC', 'guest_password': 'ZWOB5A',
-            'assistants_password': '', 'password': 'KPii40', 'live_time_delay': 1, 'video_source_ratio': 0,
-            'is_auto_recording': None, 'is_join_voip': {},
-            'record_resolution': {'is_record_resolution_hd': True, 'is_record_resolution_ld': True,
-                                  'is_record_resolution_ud': False}}
+
+json_sign = {'appId': 'KQt7wKsK6y', 'sign': '8750d8c20fee8c275efe55ebb850bcd9', 'tag': None,
+             'Appkey': 'd0001284fc586944036c2d139c3e7bac', 'timestamp': 1686755631413,
+             'webcast_id': 1667211537430888467, 'skip': 0, 'take': 20}
+
+
+timestamp = round(time.time()*1000)
+start_time = timestamp + 1000
+end_time = start_time + 100000000
 
 
 # 去除空参数
-def delete_null(obj):
+# 去除appId sign tag 参数
+# 排序
+def get_sign_string(obj):
+    nobj = {}
     new_obj = copy.copy(obj)
-    del_str = ['NONE', 'NULL']
+    del_str = ['NONE', 'None', 'NULL']
+    del_key = ['sign', 'appId', 'tag', 'Appkey']
 
     for key, value in obj.items():
         if str(value) == '{}' or str(value) == '()' or str(value) == '[]':
@@ -28,18 +36,46 @@ def delete_null(obj):
             del new_obj[key]
         elif str(value).upper() in del_str:
             del new_obj[key]
-    print(new_obj)
-    return new_obj
+        elif str(key) in del_key:
+            del new_obj[key]
+    new_obj['timestamp'] = timestamp
+    for key in sorted(new_obj):
+        nobj[key] = new_obj[key]
+    return nobj
 
-
-# 去除appId sign tag 参数
-
-# 按照字典排序
 
 # 连接参数名和参数值
-
 # 首位添加Appkey
+def init_request_string(obj, Appkey):
+    sign_list = []
+    sign_str = ''
+    for k, v in obj.items():
+        sign_list.append(str(k))
+        sign_list.append(str(v))
+
+    # print(sign_list)
+    for i in sign_list:
+        sign_str = sign_str + str(i)
+    sign_str = Appkey + sign_str + Appkey
+    logging.info("组装完成的未加密sign字符串为：" + sign_str)
+    print(sign_str)
+    return sign_str
+
 
 # 计算加密MD5
+def setSha256(obj):
+    md5 = hashlib.md5()
+    md5.update(obj.encode("utf-8"))
+    sign = md5.hexdigest()
+    # print('MD5加密前为 ：' + obj)
+    # print('MD5加密后为 ：' + sign)
+    logging.info("MD5加密后为 ：" + sign)
 
-delete_null(json_obj)
+    return sign
+
+
+
+
+# sign_str = init_request_string(get_sign_string(json_sign), '6d2a41710ee887f0e32d81c02a02f45f')
+# setSha256(sign_str)
+

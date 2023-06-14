@@ -1,5 +1,1 @@
-{
-  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "name" : "categories",
-  "children" : [ ]
-}
+{"uid":"4b4757e66a1912dae1a509f688f20b0f","name":"categories","children":[{"name":"Test defects","children":[{"name":"Exception: 接口状态码错误！\n 403 != 200","children":[{"name":"test_getConfData[test_case0-D:/Work/AutoTest-263/PyDemo/page/cvp/test_getConfData.yaml]","uid":"b6c0a2e45c20d43","parentUid":"0be0952f86d058536c3e857e082a7d51","status":"broken","time":{"start":1686773778768,"stop":1686773779859,"duration":1091},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":["'D:/Work/AutoTest-263/PyDemo/page/cvp/test_getConfData.yaml'","{'summary': 'getConfData', 'describe': 'test_getConfData', 'parameter': {'appId': 'TOXsP7cm0t', 'sign': '8750d8c20fee8c275efe55ebb850bcd9', 'timestamp': 1686760848844, 'webcast_id': 1660478773214056504, 'skip': 0, 'take': 20}, 'check_body': {'check_type': 'check_json', 'expected_code': 200, 'expected_result': {'success': True, 'code': None, 'msg': '返回成功', 'data': None, 'callTime': None}}}"],"tags":[]}],"uid":"0be0952f86d058536c3e857e082a7d51"}],"uid":"bdbf199525818fae7a8651db9eafe741"}]}

@@ -1,15 +1,16 @@
 PyDemo:
   # 首次会根据接口数据包生成，可自行更改或添加新配置，所有配置将用于公共关联值。
   timeout: 10
-  scheme: http
+  scheme: https
+
   headers:
-    Content-Type: application/x-www-form-urlencoded;charset=UTF-8
-  headtoken: xu5YwIZFkVGczMn0H0rot2ps7zRIbvrTHNwMXx1sJXg=
+    Content-Type: application/json; charset=utf-8
 
 #================================👇test👇=====================================
   # 测试环境
   operating: test
   host: test.263live.net
+  Appkey: d0001284fc586944036c2d139c3e7bac
 
 #================================👆test👆=====================================
 

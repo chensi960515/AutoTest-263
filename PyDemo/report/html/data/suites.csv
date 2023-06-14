@@ -1,2 +1,2 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Wed Jun 14 17:57:27 CST 2023","Wed Jun 14 17:57:27 CST 2023","0","PyDemo.testcase.cvp","test_getConfData","TestRegister","","","test_getConfData[test_case0-D:/code/AutoTest-263/PyDemo/page/cvp/test_getConfData.yaml]",""
+"broken","Thu Jun 15 04:16:18 CST 2023","Thu Jun 15 04:16:19 CST 2023","1091","PyDemo.testcase.cvp","test_getConfData","TestRegister","","","test_getConfData[test_case0-D:/Work/AutoTest-263/PyDemo/page/cvp/test_getConfData.yaml]",""

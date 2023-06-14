@@ -2,9 +2,11 @@
   title: register
   host: ${host}
   scheme: ${scheme}
-  method: POST
-  address: /api/register/getConfData
-  mime_type: application/x-www-form-urlencoded
+  method: GET
+  address: /openApi/v1/webcast/getConfData
+  Cache-Control: no-cache
+  Connection: keep-alive
+  mime_type: application/octet-stream
   headers: ${headers}
   timeout: ${timeout}
   file: false
@@ -13,36 +15,13 @@
 test_case:
 - summary: getConfData
   describe: test_getConfData
-  sign_params:
+  parameter:
     appId: TOXsP7cm0t
-    sign:
-    tag:
-    uid: 100003723184
-    Appkey: d0001284fc586944036c2d139c3e7bac
-    timestamp:
-  params:
-    title: '44444'
-    mode: 0
-    defalut_streaming_source: 0
-    is_auto_live: true
-    pull_stream_url: rtmp://testextlive.link263.com:19351/cv_live/1547510535023497313#MKYObFjE?auth_key=1973150237817-1547510535023497313-d36731488d959eedaedd3ad4757b7288
-    is_many_streaming: false
-    is_ultra_hd: false
-    master_control_mode: 0
-    start_time: '1686625781'
-    end_time: '1786625781'
-    host_password: HPYEDC
-    guest_password: ZWOB5A
-    assistants_password: 3N9CAI
-    password: KPii40
-    live_time_delay: 1
-    video_source_ratio: 0
-    is_auto_recording: true
-    is_join_voip: true
-    record_resolution:
-      is_record_resolution_hd: true
-      is_record_resolution_ld: true
-      is_record_resolution_ud: false
+    sign: 8750d8c20fee8c275efe55ebb850bcd9
+    timestamp: 1686760848844
+    webcast_id: 1660478773214056504
+    skip: 0
+    take: 20
   check_body:
     check_type: check_json
     expected_code: 200

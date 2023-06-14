@@ -12,7 +12,9 @@ import logging
 import allure
 import time
 from config import INTERVAL
+from urllib.parse import urlencode
 from comm.unit import apiMethod
+from comm.utils.buildSign import timestamp
 
 
 def send_request(test_info, case_data):
@@ -35,11 +37,13 @@ def send_request(test_info, case_data):
         timeout = test_info["timeout"]
         summary = case_data["summary"]
         parameter = case_data["parameter"]
+        case_data["parameter"]['timestamp'] = timestamp
 
     except Exception as e:
         raise KeyError('获取用例基本信息失败：{}'.format(e))
 
     request_url = scheme + "://" + host + address
+    send_uri = urlencode(parameter)
     logging.info("=" * 150)
     logging.info("请求接口：%s" % str(summary))
     logging.info("请求地址：%s" % request_url)
@@ -93,10 +97,10 @@ def send_request(test_info, case_data):
             allure.attach(name="请求地址", body=request_url)
             allure.attach(name="请求头", body=str(headers))
             allure.attach(name="请求参数", body=str(parameter))
+            allure.attach(name="请求url", body=str(summary) + str(send_uri))
         result = apiMethod.get(headers=headers,
                                address=request_url,
                                data=parameter,
-                               cookies=cookies,
                                timeout=timeout)
     elif method == 'PUT':
         logging.info("请求方法: PUT")
