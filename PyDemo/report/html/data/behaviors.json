@@ -6,18 +6,18 @@
     "children" : [ {
       "name" : "test_getConfData",
       "children" : [ {
-        "name" : "test_getConfData[test_case0-init_sign0]",
-        "uid" : "57907d821c1c7e56",
+        "name" : "test_getConfData[test_case0-D:/code/AutoTest-263/PyDemo/page/cvp/test_getConfData.yaml]",
+        "uid" : "e6e0b92291dcf191",
         "parentUid" : "49ab240bcd62f92ae85562e23a3f3727",
-        "status" : "broken",
+        "status" : "passed",
         "time" : {
-          "start" : 1686627208731,
-          "stop" : 1686627209736,
-          "duration" : 1005
+          "start" : 1686736647092,
+          "stop" : 1686736647092,
+          "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "{'summary': 'getConfData', 'describe': 'test_getConfData', 'parameter': {'parameter': {'sign_params': {'appId': 'TOXsP7cm0t', 'sign': None, 'tag': None, 'uid': 100003723184, 'Appkey': 'd0001284fc586944036c2d139c3e7bac', 'timestamp': None}, 'params': {'title': '44444', 'mode': 0, 'defalut_streaming_source': 0, 'is_auto_live': True, 'pull_stream_url': 'rtmp://testextlive.link263.com:19351/cv_live/1547510535023497313#MKYObFjE?auth_key=1973150237817-1547510535023497313-d36731488d959eedaedd3ad4757b7288', 'is_many_streaming': False, 'is_ultra_hd': False, 'master_control_mode': 0, 'start_time': '1686625781', 'end_time': '1786625781', 'host_password': 'HPYEDC', 'guest_password': 'ZWOB5A', 'assistants_password': '3N9CAI', 'password': 'KPii40', 'live_time_delay': 1, 'video_source_ratio': 0, 'is_auto_recording': True, 'is_join_voip': True, 'record_resolution': {'is_record_resolution_hd': True, 'is_record_resolution_ld': True, 'is_record_resolution_ud': False}}}}, 'check_body': {'check_type': 'check_json', 'expected_code': 200, 'expected_result': {'success': True, 'code': None, 'msg': '返回成功', 'data': None, 'callTime': None}}}", "{'summary': 'getConfData', 'describe': 'test_getConfData', 'parameter': {'parameter': {'sign_params': {'appId': 'TOXsP7cm0t', 'sign': None, 'tag': None, 'uid': 100003723184, 'Appkey': 'd0001284fc586944036c2d139c3e7bac', 'timestamp': None}, 'params': {'title': '44444', 'mode': 0, 'defalut_streaming_source': 0, 'is_auto_live': True, 'pull_stream_url': 'rtmp://testextlive.link263.com:19351/cv_live/1547510535023497313#MKYObFjE?auth_key=1973150237817-1547510535023497313-d36731488d959eedaedd3ad4757b7288', 'is_many_streaming': False, 'is_ultra_hd': False, 'master_control_mode': 0, 'start_time': '1686625781', 'end_time': '1786625781', 'host_password': 'HPYEDC', 'guest_password': 'ZWOB5A', 'assistants_password': '3N9CAI', 'password': 'KPii40', 'live_time_delay': 1, 'video_source_ratio': 0, 'is_auto_recording': True, 'is_join_voip': True, 'record_resolution': {'is_record_resolution_hd': True, 'is_record_resolution_ld': True, 'is_record_resolution_ud': False}}}}, 'check_body': {'check_type': 'check_json', 'expected_code': 200, 'expected_result': {'success': True, 'code': None, 'msg': '返回成功', 'data': None, 'callTime': None}}}" ]
+        "parameters" : [ "'D:/code/AutoTest-263/PyDemo/page/cvp/test_getConfData.yaml'", "{'summary': 'getConfData', 'describe': 'test_getConfData', 'sign_params': {'appId': 'TOXsP7cm0t', 'sign': None, 'tag': None, 'uid': 100003723184, 'Appkey': 'd0001284fc586944036c2d139c3e7bac', 'timestamp': None}, 'params': {'title': '44444', 'mode': 0, 'defalut_streaming_source': 0, 'is_auto_live': True, 'pull_stream_url': 'rtmp://testextlive.link263.com:19351/cv_live/1547510535023497313#MKYObFjE?auth_key=1973150237817-1547510535023497313-d36731488d959eedaedd3ad4757b7288', 'is_many_streaming': False, 'is_ultra_hd': False, 'master_control_mode': 0, 'start_time': '1686625781', 'end_time': '1786625781', 'host_password': 'HPYEDC', 'guest_password': 'ZWOB5A', 'assistants_password': '3N9CAI', 'password': 'KPii40', 'live_time_delay': 1, 'video_source_ratio': 0, 'is_auto_recording': True, 'is_join_voip': True, 'record_resolution': {'is_record_resolution_hd': True, 'is_record_resolution_ld': True, 'is_record_resolution_ud': False}}, 'check_body': {'check_type': 'check_json', 'expected_code': 200, 'expected_result': {'success': True, 'code': None, 'msg': '返回成功', 'data': None, 'callTime': None}}}" ]
       } ],
       "uid" : "49ab240bcd62f92ae85562e23a3f3727"
     } ],

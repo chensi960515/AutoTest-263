@@ -1,11 +1,11 @@
 [ {
-  "uid" : "57907d821c1c7e56",
-  "name" : "test_getConfData[test_case0-init_sign0]",
+  "uid" : "e6e0b92291dcf191",
+  "name" : "test_getConfData[test_case0-D:/code/AutoTest-263/PyDemo/page/cvp/test_getConfData.yaml]",
   "time" : {
-    "start" : 1686627208731,
-    "stop" : 1686627209736,
-    "duration" : 1005
+    "start" : 1686736647092,
+    "stop" : 1686736647092,
+    "duration" : 0
   },
-  "status" : "broken",
+  "status" : "passed",
   "severity" : "normal"
 } ]

@@ -1,21 +1,20 @@
 {
-  "0c9b278a88b8bb5217f716493c9adad9" : {
+  "3a7bce3a6bfa2c439b1b9746df8fe2b8" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "57907d821c1c7e56",
-      "status" : "broken",
-      "statusDetails" : "ValueError: invalid literal for int() with base 10: 'code'",
+      "uid" : "e6e0b92291dcf191",
+      "status" : "passed",
       "time" : {
-        "start" : 1686627208731,
-        "stop" : 1686627209736,
-        "duration" : 1005
+        "start" : 1686736647092,
+        "stop" : 1686736647092,
+        "duration" : 0
       }
     } ]
   }
