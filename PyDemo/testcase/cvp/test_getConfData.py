@@ -23,6 +23,8 @@ from comm.utils.buildSign import timestamp, start_time, end_time
 file_path = os.path.realpath(__file__).replace('\\', '/')
 case_yaml = file_path.replace('/testcase/', '/page/').replace('.py', '.yaml')
 case_data = read_yaml_data(case_yaml)
+realy_case_data = read_yaml_data(file_path.replace('local.yaml'))
+
 print(str(case_yaml))
 
 case_yaml_path = []
@@ -36,11 +38,12 @@ class TestRegister:
     @pytest.mark.parametrize("test_case", case_data["test_case"])
     @allure.story("test_getConfData")
     def test_getConfData(self, test_case, init_sign):
-        test_case['parameter']['timestamp'] = timestamp
+        # uri = init_sign
+        logging.info("用例前置请求返回uri地址为 ============ " + init_sign)
         # 初始化请求：执行前置接口+替换关联变量
         test_info, test_case = init_premise(case_data["test_info"], test_case, case_yaml)
         # 发送当前接口
-        print(test_case)
+        # test_info['uri'] = uri
         code, data = send_request(test_info, test_case)
         # 校验接口返回
         check_result(test_case, code, data)

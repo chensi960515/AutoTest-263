@@ -92,12 +92,15 @@ def get(headers, address, data, timeout=8, cookie=None):
     :param cookie:
     :return:
     """
-    response = requests.get(url=address,
-                            params=data,
-                            headers=headers,
-                            timeout=timeout,
-                            cookies=cookie,
-                            verify=False)
+    # response = requests.get(url=address,
+    #                         params=data,
+    #                         headers=headers,
+    #                         timeout=timeout,
+    #                         cookies=cookie,
+    #                         verify=False)
+    print("1111111")
+    print(address)
+    response = requests.request("GET",url=address, headers=headers,timeout=timeout)
     if response.status_code == 301:
         response = requests.get(url=response.headers["location"], verify=False)
     try:

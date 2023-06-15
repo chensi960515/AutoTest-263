@@ -27,7 +27,7 @@ def get_sign_string(obj):
     nobj = {}
     new_obj = copy.copy(obj)
     del_str = ['NONE', 'None', 'NULL']
-    del_key = ['sign', 'appId', 'tag', 'Appkey']
+    del_key = ['sign', 'appId', 'tag', 'Appkey', 'timestamp']
 
     for key, value in obj.items():
         if str(value) == '{}' or str(value) == '()' or str(value) == '[]':
@@ -38,7 +38,6 @@ def get_sign_string(obj):
             del new_obj[key]
         elif str(key) in del_key:
             del new_obj[key]
-    new_obj['timestamp'] = timestamp
     for key in sorted(new_obj):
         nobj[key] = new_obj[key]
     return nobj

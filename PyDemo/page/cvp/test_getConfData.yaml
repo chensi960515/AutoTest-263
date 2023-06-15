@@ -4,6 +4,7 @@
   scheme: ${scheme}
   method: GET
   address: /openApi/v1/webcast/getConfData
+  uri:
   Cache-Control: no-cache
   Connection: keep-alive
   mime_type: application/octet-stream
